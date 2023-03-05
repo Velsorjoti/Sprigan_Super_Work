@@ -58,3 +58,6 @@ public class BookDaoImpl implements BookDao {
         return jdbcTemplate.query("SELECT * FROM book WHERE isbn = ?", new Object[]{isbn}, new BeanPropertyRowMapper<>(Book.class)).stream().findAny().orElse(null);
     }
 }
+
+
+//Для пула.
