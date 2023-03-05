@@ -14,3 +14,5 @@ public interface BookService {
 
     void deleteBookByIsbn(String isbn);
 }
+
+//Для пула.

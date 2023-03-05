@@ -76,3 +76,6 @@ public class BookServiceImpl implements BookService {
         return c == Character.getNumericValue(cleanIsbn.charAt(cleanIsbn.length() - 1));
     }
 }
+
+
+//Для пула.

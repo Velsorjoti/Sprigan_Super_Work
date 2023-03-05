@@ -41,3 +41,6 @@ public class SpringSecurityConfiguration {
         return new InMemoryUserDetailsManager(user, admin);
     }
 }
+
+
+//Для пула.

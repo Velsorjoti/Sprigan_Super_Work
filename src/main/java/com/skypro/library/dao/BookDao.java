@@ -12,3 +12,5 @@ public interface BookDao {
     Book readBookByIsbn(String isbn);
 
 }
+
+//Для пула.
